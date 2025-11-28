@@ -6,7 +6,7 @@ library(shiny)
 library(plotly)
 
 # Load data from jsDelivr CDN (CORS-enabled for Shinylive)
-data_url <- "https://cdn.jsdelivr.net/gh/jhelvy/vehicletrends@main/data/quantiles_dvmt.csv"
+data_url <- "https://cdn.jsdelivr.net/gh/vehicletrends/daily-vmt@main/data/quantiles_dvmt.csv"
 quantiles_dvmt <- read.csv(data_url)
 
 # Define UI
