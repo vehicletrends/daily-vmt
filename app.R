@@ -1,9 +1,8 @@
 library(shiny)
+library(dplyr)
 library(bslib)
 library(echarts4r)
-library(tidyverse)
 
-# Load data
 data_url <- "https://raw.githubusercontent.com/vehicletrends/data/refs/heads/main/data/quantiles_dvmt.csv"
 data <- read.csv(data_url)
 
