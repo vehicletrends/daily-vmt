@@ -3,7 +3,7 @@ library(dplyr)
 library(bslib)
 library(echarts4r)
 
-data_url <- "https://raw.githubusercontent.com/vehicletrends/data/refs/heads/main/data/quantiles_dvmt.csv"
+data_url <- "https://raw.githubusercontent.com/vehicletrends/vehicletrends/refs/heads/main/data-raw/quantiles_dvmt.csv"
 data <- read.csv(data_url)
 
 ui <- page_sidebar(
